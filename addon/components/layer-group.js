@@ -40,6 +40,8 @@ export default BaseLayer.extend(ParentMixin, {
       });
     }
   },
+  
+  addToContainer() {},
 
   didInsertParent() {
     if (isNone(get(this,'_layer'))) {
